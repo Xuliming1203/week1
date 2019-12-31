@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".view.activity.SecondActivity">
+<include layout="@layout/item">
+</include>
+    <ImageView
+        android:id="@+id/iv8"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="350dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/bt1"
+        android:text="微信"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+        <Button
+            android:id="@+id/bt2"
+            android:layout_marginLeft="50dp"
+            android:text="QQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
